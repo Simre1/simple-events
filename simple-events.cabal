@@ -1,0 +1,33 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 50008f4171d8fe79533e1ae4b2e58b3b75324a77780dfbb5741c9079157be575
+
+name:           simple-events
+version:        0.1.0.0
+homepage:       https://github.com/Simre1/simple-frp#readme
+bug-reports:    https://github.com/Simre1/simple-frp/issues
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/Simre1/simple-frp
+
+library
+  exposed-modules:
+      SimpleEvents
+  other-modules:
+      Paths_simple_events
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , containers
+  default-language: Haskell2010

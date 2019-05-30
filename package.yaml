@@ -1,0 +1,14 @@
+name:                simple-events
+version:             0.1.0.0
+github:              "Simre1/simple-events"
+license:             MIT
+
+extra-source-files:
+- README.md
+
+dependencies:
+- base >= 4.7 && < 5
+- containers
+
+library:
+  source-dirs: src
