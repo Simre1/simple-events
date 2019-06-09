@@ -4,12 +4,12 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 50008f4171d8fe79533e1ae4b2e58b3b75324a77780dfbb5741c9079157be575
+-- hash: e1d998bbbf2663f16a3adbcef7647d6092be4bc99b9a6b03b88e2ee7f6a3ee77
 
 name:           simple-events
 version:        0.1.0.0
-homepage:       https://github.com/Simre1/simple-frp#readme
-bug-reports:    https://github.com/Simre1/simple-frp/issues
+homepage:       https://github.com/Simre1/simple-events#readme
+bug-reports:    https://github.com/Simre1/simple-events/issues
 license:        MIT
 license-file:   LICENSE
 build-type:     Simple
@@ -18,7 +18,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/Simre1/simple-frp
+  location: https://github.com/Simre1/simple-events
 
 library
   exposed-modules:

@@ -1,12 +1,5 @@
-# SimpleEvents
+module EventExample where
 
-**Status: Experimental**
-
-SimpleEvents is a very lightweight library for defining event networks with the only dependencies being base and containers.
-
-Here is a short example if one wishes to try out this library:
-
-```haskell
 import SimpleEvents
 
 eventExample :: IO ()
@@ -26,4 +19,3 @@ eventExample = do
           str -> triggerEvent inputTrigger str >> gatherInput
 
   gatherInput
-```
